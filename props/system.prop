@@ -7,6 +7,9 @@ debug.cpurend.vsync=false
 # Display
 ro.sf.lcd_density=440
 
+# HWUI
+debug.hwui.skia_atrace_enabled=false
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
