@@ -443,6 +443,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librmnetctl
 
+# Suspend properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    suspend.short_suspend_threshold_millis=2000 \
+    suspend.max_sleep_time_millis=40000 \
+    suspend.short_suspend_backoff_enabled=true
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.xiaomi-multihal \
