@@ -18,6 +18,7 @@ TARGET_ENABLE_BLUR := false
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
+RISING_MAINTAINER := Mohammad Kibria
 
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
